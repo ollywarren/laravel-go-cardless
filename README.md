@@ -11,6 +11,18 @@ Simply require the package through composer and let the Laravel Package Auto Dis
 
 ``` composer require ollywarren/laravel-go-cardless ```
 
+Publish the vendor configuration:
+
+``` php artisan vendor:publish``` (Select the relevant package from the list)
+
+Set two environment variables in your Apps .env file:
+
+```
+GOCARDLESS_ENV="sandbox" OR "live"
+GOCARDLESS_TOKEN="<YOUR API TOKEN>"
+
+```
+
 ## Installation Laravel 5.4
 
 Use composer to add it to your project dependencies:
@@ -28,6 +40,18 @@ Add the package service provider to the providers array:
 Finally for good measure dump the composer autoloader to make sure we've pulled in the helper method:
 
 ``` composer dump-autoloader ```
+
+Publish the vendor configuration:
+
+``` php artisan vendor:publish```
+
+Set two environment variables in your Apps .env file:
+
+```
+GOCARDLESS_ENV="sandbox" OR "live"
+GOCARDLESS_TOKEN="<YOUR API TOKEN>"
+
+```
 
 ## Usage Instructions
 
