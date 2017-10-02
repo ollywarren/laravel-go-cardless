@@ -13,9 +13,6 @@ class GoCardlessServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        var_dump(__DIR__);
-
-        die();
         $this->publishes([__DIR__.'/config/gocardless.php' => config_path('gocardless.php'),]);
     }
 

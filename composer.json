@@ -25,7 +25,7 @@
     "extra": {
     "laravel": {
         "providers": [
-            "Ollywarren\\LaravelGoCardless\\GoCardlesssServiceProvider"
+            "Ollywarren\\LaravelGoCardless\\GoCardlessServiceProvider"
         ]
     }
 }
