@@ -23,7 +23,7 @@ Then inside your ```config/app.php```
 
 Add the package service provider to the providers array:
 
-``` Ollywarren\laravel-go-cardless\GoCardlessServiceProvider::class, ```
+``` Ollywarren\LaravelGoCardless\GoCardlessServiceProvider::class, ```
 
 Finally for good measure dump the composer autoloader to make sure we've pulled in the helper method:
 
