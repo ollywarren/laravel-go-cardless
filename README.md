@@ -1,5 +1,5 @@
 # Laravel Go Cardless
-A Laravel 5.5 Wrapper for the Go Cardless PHP CLient Library. This package provides simple elegant access to the Go Cardless PHP CLient API from across the Laravel Application.
+A Laravel 5.5 Wrapper for the Go Cardless PHP Client Library. This package provides simple elegant access to the Go Cardless PHP Client API from across the Laravel Application.
 
 The included helper method makes accessing the underlying methods as easy as:
 
