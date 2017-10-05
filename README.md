@@ -1,4 +1,9 @@
 # Laravel Go Cardless
+
+[![Total Downloads](https://poser.pugx.org/ollywarren/laravel-go-cardless/downloads)](https://packagist.org/packages/ollywarren/makepackage)
+[![Latest Stable Version](https://poser.pugx.org/ollywarren/laravel-go-cardless/v/stable)](https://packagist.org/packages/ollywarren/makepackage)
+[![License](https://poser.pugx.org/ollywarren/laravel-go-cardless/license)](https://packagist.org/packages/ollywarren/makepackage)
+
 A Laravel 5.5 Wrapper for the Go Cardless PHP CLient Library. This package provides simple elegant access to the Go Cardless PHP CLient API from across the Laravel Application.
 
 The included helper method makes accessing the underlying methods as easy as:
