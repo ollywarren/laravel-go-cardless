@@ -22,10 +22,10 @@
         }
     },
     "extra": {
-    "laravel": {
-        "providers": [
-            "Ollywarren\\LaravelGoCardless\\GoCardlessServiceProvider"
-        ]
+        "laravel": {
+            "providers": [
+                "Ollywarren\\LaravelGoCardless\\GoCardlessServiceProvider"
+            ]
+        }
     }
-}
 }
