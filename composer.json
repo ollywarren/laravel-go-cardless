@@ -3,8 +3,9 @@
     "description": "A Laravel Wrapper for the Go Cardless PHP Client Library",
     "keywords": ["laravel","go cardless", "composer", "package"],
     "homepage": "https://github.com/ollywarren/laravel-go-cardless",
+    "version": "1.1.0-dev",
     "require": {
-        "gocardless/gocardless-pro": "^3.0"
+        "gocardless/gocardless-pro": "^4.0"
     },
     "license": "MIT",
     "authors": [
@@ -15,10 +16,15 @@
     ],
     "autoload": {
         "files": [
-            "src/helpers/helpers.php"
+            "src/Helpers/Helpers.php"
         ],
         "psr-4": {
             "Ollywarren\\LaravelGoCardless\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+          "Ollywarren\\LaravelGoCardless\\Tests\\": "tests"
         }
     },
     "extra": {
@@ -27,5 +33,9 @@
                 "Ollywarren\\LaravelGoCardless\\GoCardlessServiceProvider"
             ]
         }
+    },
+    "require-dev": {
+        "orchestra/testbench": "^7.1",
+        "phpunit/phpunit": "^9.5"
     }
 }

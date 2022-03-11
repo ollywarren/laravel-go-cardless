@@ -14,7 +14,7 @@ class GoCardlessService
 	public function __construct()
 	{
 		$this->token        = config('gocardless.token');
-		$this->environment  = config('gocardless.environment');
+		$this->environment  = config('gocardless.environment') == 'live' ? \GoCardlessPro\Environment::LIVE : \GoCardlessPro\Environment::SANDBOX;
 
 		$this->client = new Client( array (
 			'access_token' => $this->token,
