@@ -26,7 +26,7 @@ class TestCase extends \Orchestra\Testbench\TestCase
             "postal_code"   => "LV1 1LV"
     
         ];
-        
+
         $this->customerId = "CU000KZDMZBATW";
 
         parent::setUp();
@@ -42,7 +42,7 @@ class TestCase extends \Orchestra\Testbench\TestCase
     protected function getEnvironmentSetUp($app)
     {
         // perform environment setup
-        $app['config']->set('gocardless.token', 'sandbox_V88BPnyfIWmPw_-JewC74hfi9-ds5iiogZdL4Ama');
+        $app['config']->set('gocardless.token', '');
         $app['config']->set('gocardless.environment', 'sandbox');
     }
 }
